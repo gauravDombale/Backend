@@ -1,0 +1,28 @@
+{
+  "name": "backend_setup",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "node"
+  ],
+  "homepage": "https://github.com/gauravDombale/Backend#readme",
+  "bugs": {
+    "url": "https://github.com/gauravDombale/Backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gauravDombale/Backend.git"
+  },
+  "license": "ISC",
+  "author": "gaurav dombale",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx dotenv-cli -- node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
+  }
+}
